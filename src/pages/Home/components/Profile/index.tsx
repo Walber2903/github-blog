@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ExternalLink } from "../../../components/ExternalLink";
+import { ExternalLink } from "../../../../components/ExternalLink";
 import { ProfileContainer, ProfileDetails, ProfilePicture } from "./styles";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faBuilding, faUserGroup } from "@fortawesome/free-solid-svg-icons";
@@ -15,9 +15,9 @@ export function Profile() {
           <ExternalLink text="Github" href="#" />
         </header>
         <p>
-          Tristique volutpat pulvinar vel massa, pellentesque egestas. 
-          Eu viverra massa quam dignissim aenean malesuada suscipit. 
-          Nunc, volutpat pulvinar vel mass.
+          Tristique volutpat pulvinar vel massa, pellentesque egestas. Eu
+          viverra massa quam dignissim aenean malesuada suscipit. Nunc, volutpat
+          pulvinar vel mass.
         </p>
         <ul>
           <li>
@@ -35,5 +35,5 @@ export function Profile() {
         </ul>
       </ProfileDetails>
     </ProfileContainer>
-  )
+  );
 }
