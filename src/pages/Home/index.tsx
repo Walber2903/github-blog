@@ -1,4 +1,4 @@
-import { Post } from "./components/Post";
+import { CardPost } from "./components/CardPost";
 import { Profile } from "./components/Profile";
 import { SearchInput } from "./components/SearchInput";
 import { PostListContainer } from "./styles";
@@ -6,16 +6,16 @@ import { PostListContainer } from "./styles";
 export function Home() {
   return (
     <>
-      <Profile/>
+      <Profile />
       <SearchInput />
       <PostListContainer>
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <CardPost />
+        <CardPost />
+        <CardPost />
+        <CardPost />
+        <CardPost />
+        <CardPost />
       </PostListContainer>
     </>
-  )
+  );
 }
